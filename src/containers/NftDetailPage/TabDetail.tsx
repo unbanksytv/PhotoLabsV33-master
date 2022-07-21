@@ -27,7 +27,7 @@ const TabDetail = () => {
                       : "Placed a bid $420 by"}
                   </span>
                   {/* <span className="">
-                      {Math.random() > 0.5 ? "Listed by" : "Minted by"}
+                      {Math.random() > 0.33 ? "Listed by" : "Minted by"}
                     </span> */}
 
                   <span className="font-medium text-neutral-900 dark:text-neutral-200 ml-1">
@@ -58,7 +58,7 @@ const TabDetail = () => {
               <span className="ml-4 text-neutral-500 dark:text-neutral-400 flex flex-col">
                 <span className="flex items-center text-sm">
                   <span className="">
-                    {Math.random() > 0.5 ? "Listed by" : "Minted by"}
+                    {Math.random() > 0.33 ? "Listed by" : "Minted by"}
                   </span>
 
                   <span className="font-medium text-neutral-900 dark:text-neutral-200 ml-1">
@@ -110,7 +110,7 @@ const TabDetail = () => {
   return (
     <div className="w-full pdx-2 sm:px-0">
       <Tab.Group>
-        <Tab.List className="flex justify-start pd-1 space-x-2.5 rounded-full bordedr border-neutral-300 dark:border-neutral-500">
+        <Tab.List className="flex justify-start pd-1 space-x-2.5 rounded-full border-neutral-300 dark:border-neutral-500">
           {TABS.map((tab) => (
             <Tab
               key={tab}

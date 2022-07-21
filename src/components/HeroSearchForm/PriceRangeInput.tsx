@@ -74,8 +74,8 @@ const PriceRangeInput: FC<PriceRangeInputProps> = ({
                 </svg>
               </div>
               <div className="flex-grow">
-                <span className="block xl:text-lg font-semibold truncate min-w-[170px]">
-                  {`${rangePrices[0]}ETH ~ ${rangePrices[1]}ETH`}
+                <span className="block xl:text-lg font-bold truncate min-w-[170px]">
+                  {`${rangePrices[0]}OHM ~ ${rangePrices[1]}OHM`}
                 </span>
                 <span className="block mt-1 text-sm text-neutral-400 leading-none font-light ">
                   Price range
@@ -103,8 +103,8 @@ const PriceRangeInput: FC<PriceRangeInputProps> = ({
                   <Slider
                     range
                     className="text-red-400"
-                    min={0.01}
-                    max={10}
+                    min={0.33}
+                    max={33}
                     defaultValue={[rangePrices[0], rangePrices[1]]}
                     allowCross={false}
                     step={0.01}

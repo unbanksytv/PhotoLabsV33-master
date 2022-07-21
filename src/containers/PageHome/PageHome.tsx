@@ -30,7 +30,7 @@ function PageHome() {
           heading={
             <span>
               Discover 🖼
-              <br /> collect, and sell <br /> extraordinary {` `}
+              <br /> Collect, and sell <br /> extraordinary {` `}
               <span className="relative pr-3">
                 <img
                   className="w-full absolute bottom-3 -left-1"
@@ -47,7 +47,7 @@ function PageHome() {
         <SectionHowItWork />
       </div>
 
-      {/* SECTION LAERGE SLIDER */}
+      {/* SECTION LARGE SLIDER */}
       <div className="bg-neutral-100/80 dark:bg-black/20 py-20 lg:py-32">
         <div className="container">
           <SectionLargeSlider />

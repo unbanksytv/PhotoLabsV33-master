@@ -33,7 +33,7 @@ const DEMO_DATA = [
   },
   {
     id: 3,
-    clientName: "Live The Web3 Life",
+    clientName: "Live The Life",
     clientAddress: "Anon Country",
     content:
       "This is a fantastic photography and photogrammetry-centric NFT platform with a curated collection from award-winning artists. Much appreciated ser",

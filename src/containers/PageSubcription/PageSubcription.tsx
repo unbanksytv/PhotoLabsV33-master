@@ -23,7 +23,7 @@ const pricings: PricingItem[] = [
     pricing: "$5",
     per: "/mo",
     features: ["Automated Reporting", "Faster Processing", "Customizations"],
-    desc: ` Literally you probably haven't heard of them jean shorts.`,
+    desc: ` Aloha.`,
   },
   {
     isPopular: true,

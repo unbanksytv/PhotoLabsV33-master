@@ -61,8 +61,7 @@ const PageUploadItem: FC<PageUploadItemProps> = ({ className = "" }) => {
               Create New Item
             </h2>
             <span className="block mt-3 text-neutral-500 dark:text-neutral-400">
-              You can set preferred display name, create your profile URL and
-              manage other personal settings.
+              Set preferred display name, create your profile URL and personal settings.
             </span>
           </div>
           <div className="w-full border-b-2 border-neutral-100 dark:border-neutral-700"></div>
