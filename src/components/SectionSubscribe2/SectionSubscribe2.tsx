@@ -17,7 +17,7 @@ const SectionSubscribe2: FC<SectionSubscribe2Props> = ({ className = "" }) => {
       data-nc-id="SectionSubscribe2"
     >
       <div className="flex-shrink-0 mb-10 lg:mb-0 lg:mr-10 lg:w-2/5">
-        <h2 className="font-semibold text-4xl">Never miss a drop!</h2>
+        <h2 className="font-bold text-4xl">Never miss a drop!</h2>
         <span className="block mt-5 text-neutral-500 dark:text-neutral-400">
           Sign up with PreMint to join the AllowList Crew.
         </span>
