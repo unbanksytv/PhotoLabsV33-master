@@ -14,7 +14,7 @@ const TabDetail = () => {
           <li
             key={index}
             className={`relative py-4 ${
-              index % 2 === 1 ? "bg-neutradl-100" : ""
+              index % 2 === 1 ? "bg-neutral-100" : ""
             }`}
           >
             <div className="flex items-center">
@@ -23,18 +23,18 @@ const TabDetail = () => {
                 <span className="flex items-center text-sm">
                   <span className="">
                     {Math.random() > 0.5
-                      ? "Offer of $700 by"
-                      : "Placed a bid $500 by"}
+                      ? "Offer of $690 by"
+                      : "Placed a bid $420 by"}
                   </span>
                   {/* <span className="">
                       {Math.random() > 0.5 ? "Listed by" : "Minted by"}
                     </span> */}
 
                   <span className="font-medium text-neutral-900 dark:text-neutral-200 ml-1">
-                    Martoutaa
+                    GVO33.eth
                   </span>
                 </span>
-                <span className="text-xs mt-1">Jun 14 - 4:12 PM</span>
+                <span className="text-xs mt-1">Jun 03 - 4:20 PM</span>
               </span>
             </div>
           </li>
@@ -50,7 +50,7 @@ const TabDetail = () => {
           <li
             key={index}
             className={`relative py-4 ${
-              index % 2 === 1 ? "bg-neutradl-100" : ""
+              index % 2 === 1 ? "bg-neutral-100" : ""
             }`}
           >
             <div className="flex items-center">
@@ -62,10 +62,10 @@ const TabDetail = () => {
                   </span>
 
                   <span className="font-medium text-neutral-900 dark:text-neutral-200 ml-1">
-                    Martoutaa
+                    GVO33.eth
                   </span>
                 </span>
-                <span className="text-xs mt-1">Jun 14 - 4:12 PM</span>
+                <span className="text-xs mt-1">Jun 17 - 4:20 PM</span>
               </span>
             </div>
 

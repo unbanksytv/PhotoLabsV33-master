@@ -6,9 +6,6 @@ import ButtonSecondary from "shared/Button/ButtonSecondary";
 import NcImage from "shared/NcImage/NcImage";
 import QrCodeImg from "images/qr-code.png";
 import metamaskImg from "images/metamask.webp";
-import walletconnectImg from "images/walletconnect.webp";
-import walletlinkImg from "images/walletlink.webp";
-import fortmaticImg from "images/fortmatic.webp";
 
 export interface PageConnectWalletProps {
   className?: string;
