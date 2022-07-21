@@ -60,8 +60,9 @@ const CardAuthorBox3: FC<CardAuthorBox3Props> = ({
           <FollowButton isFollowing={following} />
         </div>
         <div className="mt-4 text-sm text-neutral-500 dark:text-neutral-400">
-          X-Metaverse is a Star Wars game based on NFT+ blockchain exploration,
-          mining, trading ...
+          He relishes the opportunity to work with raw ideas and shape them 
+          piece-by-piece into reality. For over a decade, the award-winning photographer 
+          Dimitri Daniloff has been among the top 10 advertising photographers in the world.
         </div>
       </div>
 

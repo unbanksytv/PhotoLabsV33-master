@@ -34,8 +34,8 @@ export default function AvatarDropdown() {
                       <Avatar imgUrl={avatarImgs[7]} sizeClass="w-12 h-12" />
 
                       <div className="flex-grow">
-                        <h4 className="font-semibold">Eden Tuan</h4>
-                        <p className="text-xs mt-0.5">0xc4c16ab5ac7d...b21a</p>
+                        <h4 className="font-bold">LiveTheLifeTV</h4>
+                        <p className="text-xs mt-0.5">GVO33.eth</p>
                       </div>
                     </div>
 

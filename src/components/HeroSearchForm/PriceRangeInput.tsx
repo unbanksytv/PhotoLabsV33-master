@@ -124,7 +124,7 @@ const PriceRangeInput: FC<PriceRangeInputProps> = ({
                     </label>
                     <div className="mt-1 relative rounded-md">
                       <span className="absolute inset-y-0 right-4 flex items-center pointer-events-none text-neutral-500  text-xs sm:text-sm">
-                        ETH
+                        OHM
                       </span>
                       <input
                         type="text"
@@ -145,7 +145,7 @@ const PriceRangeInput: FC<PriceRangeInputProps> = ({
                     </label>
                     <div className="mt-1 relative rounded-md">
                       <span className="absolute inset-y-0 right-4 flex items-center pointer-events-none text-neutral-500  text-xs sm:text-sm">
-                        ETH
+                        OHM
                       </span>
                       <input
                         type="text"

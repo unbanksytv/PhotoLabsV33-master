@@ -43,8 +43,8 @@ const CardLarge1: FC<CardLarge1Props> = ({
         >
           <div className="p-4 sm:p-8 xl:py-14 md:px-10 bg-white dark:bg-neutral-900 shadow-lg rounded-3xl space-y-3 sm:space-y-8 ">
             {/* TITLE */}
-            <h2 className="text-2xl lg:text-3xl 2xl:text-5xl font-semibold ">
-              <Link to={"/nft-detailt"} title="Walking On Air">
+            <h2 className="text-2xl lg:text-3xl 2xl:text-5xl font-bold ">
+              <Link to={"/nft-detailt"} title="DDA Collection">
                 Walking On Air
               </Link>
             </h2>
@@ -57,8 +57,8 @@ const CardLarge1: FC<CardLarge1Props> = ({
                 </div>
                 <div className="ml-3">
                   <div className="text-xs dark:text-neutral-400">Creator</div>
-                  <div className="text-sm font-semibold flex items-center">
-                    <span>Jane Cooper</span>
+                  <div className="text-sm font-bold flex items-center">
+                    <span>LiveTheLifeTV</span>
                     <VerifyIcon />
                   </div>
                 </div>
@@ -71,7 +71,7 @@ const CardLarge1: FC<CardLarge1Props> = ({
                   <div className="text-xs dark:text-neutral-400">
                     Collection
                   </div>
-                  <div className="text-sm font-semibold ">Marscapes</div>
+                  <div className="text-sm font-bold ">DDA Collection</div>
                 </div>
               </div>
             </div>
@@ -82,11 +82,11 @@ const CardLarge1: FC<CardLarge1Props> = ({
                 <span className="block absolute bottom-full translate-y-1.5 py-1 px-1.5 bg-white dark:bg-neutral-900 text-sm text-neutral-500 dark:text-neutral-400 ring ring-offset-0 ring-white dark:ring-neutral-900">
                   Current Bid
                 </span>
-                <span className="text-3xl xl:text-4xl font-semibold text-green-500">
-                  1.000 ETH
+                <span className="text-3xl xl:text-4xl font-bold text-yellow-400">
+                  33 OHM
                 </span>
                 <span className="text-lg text-neutral-400 sm:ml-3.5">
-                  (≈ $3,221.22)
+                  (≈ $3,420.69)
                 </span>
               </div>
             </div>
