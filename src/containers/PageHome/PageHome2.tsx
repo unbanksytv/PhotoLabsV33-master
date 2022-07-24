@@ -15,7 +15,7 @@ import SectionMagazine8 from "components/SectionMagazine8";
 import SectionSliderCardNftVideo from "components/SectionSliderCardNftVideo";
 import SectionSliderCollections2 from "components/SectionSliderCollections2";
 
-function PageHome() {
+function PageHome2() {
   return (
     <div className="nc-PageHome relative overflow-hidden">
       <Helmet>
@@ -27,9 +27,6 @@ function PageHome() {
       <div className="container relative mt-5 mb-20 sm:mb-24 lg:mt-20 lg:mb-32">
         {/* SECTION HERO */}
         <SectionHero2 />
-
-        {/* SECTION 2 */}
-        <SectionHowItWork className="mt-24 lg:mt-40 xl:mt-48" />
       </div>
 
       {/* SECTION LARGE SLIDER */}
@@ -87,4 +84,4 @@ function PageHome() {
   );
 }
 
-export default PageHome;
+export default PageHome2;

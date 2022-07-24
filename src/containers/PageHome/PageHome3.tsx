@@ -1,6 +1,5 @@
 import React from "react";
 import SectionSliderCategories from "components/SectionSliderCategories/SectionSliderCategories";
-import SectionHowItWork from "components/SectionHowItWork/SectionHowItWork";
 import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import SectionGridAuthorBox from "components/SectionGridAuthorBox/SectionGridAuthorBox";
 import SectionBecomeAnAuthor from "components/SectionBecomeAnAuthor/SectionBecomeAnAuthor";
@@ -17,11 +16,6 @@ function PageHome3() {
       <div className="container px-4">
         {/* SECTION HERO */}
         <SectionHero3 />
-      </div>
-
-      <div className="container py-20 lg:py-32">
-        {/* SECTION 2 */}
-        <SectionHowItWork />
       </div>
 
       <div className="container relative space-y-24 mb-24 lg:space-y-32 lg:mb-32">

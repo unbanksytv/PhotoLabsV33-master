@@ -1,6 +1,5 @@
 import React from "react";
 import SectionSliderCategories from "components/SectionSliderCategories/SectionSliderCategories";
-import SectionHowItWork from "components/SectionHowItWork/SectionHowItWork";
 import BackgroundSection from "components/BackgroundSection/BackgroundSection";
 import BgGlassmorphism from "components/BgGlassmorphism/BgGlassmorphism";
 import SectionGridAuthorBox from "components/SectionGridAuthorBox/SectionGridAuthorBox";
@@ -29,7 +28,7 @@ function PageHome() {
           className="pb-10"
           heading={
             <span>
-              Discover 🖼
+              Discover 📸
               <br /> Collect, and sell <br /> extraordinary {` `}
               <span className="relative pr-3">
                 <img
@@ -37,15 +36,11 @@ function PageHome() {
                   src={Vector1}
                   alt="Vector1"
                 />
-                <span className="relative">NFTs</span>
+                <span className="relative">Photos</span>
               </span>
             </span>
           }
         />
-
-        {/* SECTION 2 */}
-        <SectionHowItWork />
-      </div>
 
       {/* SECTION LARGE SLIDER */}
       <div className="bg-neutral-100/80 dark:bg-black/20 py-20 lg:py-32">

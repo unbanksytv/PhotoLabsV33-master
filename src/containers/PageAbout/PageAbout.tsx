@@ -20,7 +20,7 @@ const PageAbout: FC<PageAboutProps> = ({ className = "" }) => {
       data-nc-id="PageAbout"
     >
       <Helmet>
-        <title>About || Ciscryp React Template</title>
+        <title>About || </title>
       </Helmet>
 
       {/* ======== BG GLASS ======== */}
@@ -31,7 +31,7 @@ const PageAbout: FC<PageAboutProps> = ({ className = "" }) => {
           rightImg={rightImg}
           heading="👋 About Us."
           btnText=""
-          subHeading="We’re impartial and independent, and every day we create distinctive, world-class programmes and content which inform, educate and entertain millions of people in the around the world."
+          subHeading="We’re impartial and independent."
         />
 
         <SectionFounder />
